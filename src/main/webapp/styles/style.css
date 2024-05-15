@@ -1,0 +1,80 @@
+/* Reset de estilos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background: #444;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    background: #555;
+}
+
+.main-content {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media(max-width:768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media(max-width:576px) {
+    .navbar ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
